@@ -6,7 +6,7 @@ file=open('counter1234.txt','w')
 # Load the cascade
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
-# To capture video from webcam. 
+# To capture video from webcam. Change VideoCapture vlaue from 1 to 0 if using built-in laptop webcam 
 cap = cv2.VideoCapture(1)
 
 while True:
